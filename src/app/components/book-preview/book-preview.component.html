@@ -1,0 +1,13 @@
+<div class="book-preview-cards__item">
+  <div class="book-preview-card">
+    <div class="book-preview-card__image" [ngStyle]="{'background-image': 'url(' + book.imagePath + ')'}"></div>
+    <div class="book-preview-card__content">
+      <div class="book-preview-card__title">{{book.title}}</div>
+      <div class="book-preview-card__text">
+        <h3>{{book.authors}}</h3>
+        <button type="button" class="btn-orange read-more-btn" (click)="onReadMore()">Read More</button>
+      </div>
+    </div>
+  </div>
+</div>
+

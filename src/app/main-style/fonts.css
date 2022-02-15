@@ -1,0 +1,15 @@
+@font-face {
+  font-family: patrickHand;
+  src: url(../../assets/fonts/PatrickHand-Regular/PatrickHand-Regular.ttf);
+}
+
+@font-face {
+  font-family: shadowLight;
+  src: url(../../assets/fonts/shadow-into-light/ShadowsIntoLightTwo-Regular.ttf);
+}
+
+@font-face {
+  font-family: mouseMemories;
+  src: url(../../assets/fonts/mouse-memoirs/MouseMemoirs-Regular.ttf);
+}
+

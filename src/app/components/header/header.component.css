@@ -1,0 +1,98 @@
+.banner-img-container {
+  background-image: url(../../../assets/images/books-banner-bg.jpg);
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.banner-main-title {
+  font-size: 5em;
+  font-family: shadowLight, sans-serif;
+}
+
+.inner-container {
+  text-align: center;
+  position: absolute;
+  color: white;
+  height: auto;
+  right: -11px;
+  top: 26px;
+  width: 61%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-form-container {
+  margin-top: 20px;
+}
+
+.search-box {
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #FC4F4F
+}
+
+.search-btn {
+  float: right;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  transition: 0.4s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 1rem;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.search-box:hover >.search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+@media only screen and (max-width:700px) {
+ .banner-main-title {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width:610px) {
+  .banner-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .inner-container {
+    position: relative;
+  }
+
+  .banner-main-title {
+     font-size: 4em;
+   }
+}
+
+@media only screen and (max-width:510px) {
+  .inner-container {
+    width: auto;
+  }
+  .search-box:hover >.search-txt {
+    width: 200px;
+  }
+  .banner-main-title {
+     font-size: 3em;
+  }
+}

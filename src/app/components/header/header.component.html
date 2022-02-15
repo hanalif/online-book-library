@@ -1,0 +1,19 @@
+
+<div class="banner-img-container">
+  <div class="inner-container">
+    <h1 class="banner-main-title">Online Books Library</h1>
+    <div class="search-form-container">
+      <form #searchForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="search-box">
+          <input
+            class="search-txt"
+            type="search"
+            placeholder="Book search"
+            ngModel
+            name="searchKey">
+          <button class="search-btn"><fa-icon [icon]="faSearch"></fa-icon></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
